@@ -47,8 +47,8 @@ const Card = (props) => {
                         <div className='modal-text right'>
                             <span>Featured - Design</span>
                             <h1>{props.title}</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
-                            <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
+                            <p>{props.desc}</p>
+                            <p>{props.desc2}</p>
                             <div className='button f_flex mtop'>
                                 <a href={props.github}>
                                     <button className='btn_shadow'>

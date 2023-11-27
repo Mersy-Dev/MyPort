@@ -20,7 +20,9 @@ const Portfolio_data = [
         title: "A responsive Travel and Tourism Booking Website ",
         image: PIC5,
         github: 'https://github.com/Mersy-Dev/TourNTravels',
-        demo: "https://tours-trav.netlify.app/"
+        demo: "https://tours-trav.netlify.app/",
+        desc: " A responsive Travel and Tourism Booking Website with a dynamic booking site that allows users to book for a tour and search for a desired location.",
+        desc2: " The site is built with frontend framework Reactjs and backend framework Nodejs, using mongoDB as the database.",
 
     },
     {
@@ -30,7 +32,9 @@ const Portfolio_data = [
         title: "A real estate website for housing and accomodation",
         image: PIC2,
         github: 'https://github.com/Mersy-Dev/Real-Estat',
-        demo: "https://housing-aj5.pages.dev/"
+        demo: "https://housing-aj5.pages.dev/",
+        desc: "A real estate website for housing and accomodation. The site has a couple of pages that allows users to search for a desired houses to rent or buy. ",
+        desc2: " The site is built with frontend framework Reactjs and backend framework Nodejs, using mongoDB as the database.",
 
 
     },
@@ -41,7 +45,9 @@ const Portfolio_data = [
         title: "eCommerce Veges and Fruits Website",
         image: PIC3,
         github: 'https://github.com/Mersy-Dev/eCommerce/',
-        demo: "https://minions-resturant.netlify.app/"
+        demo: "https://minions-resturant.netlify.app/",
+        desc: " A responsive eCommerce Veges and Fruits Website with a dynamic page to allow users to search for a desired food and add them to cart.",
+        desc2: " The site is built with frontend framework Reactjs and backend framework Nodejs, using mongoDB as the database.",
 
     },
     {
@@ -51,7 +57,9 @@ const Portfolio_data = [
         title: "A PHP School Management system",
         image: PIC4,
         github: 'https://github.com/Mersy-Dev/school-system',
-        demo: ""
+        demo: "",
+        desc: " A School Management System which help to manage the school activities such as student registration, student result, student attendance, teacher attendance, teacher registration, teacher result, and many more.",
+        desc2: " The site is resonsive and built with PHP and uses mysql as its data storage base.",
 
     },
     {
@@ -61,7 +69,9 @@ const Portfolio_data = [
         title: "A responsive eCommerce Clothing Javascript Website",
         image: PIC6,
         github: 'https://github.com/Mersy-Dev/eCommerClothing',
-        demo: "https://clothing-ecomms.netlify.app/"
+        demo: "https://clothing-ecomms.netlify.app/",
+        desc: " A five page eCommerce Clothing Javascript Website with a dynamic page to allow users to view different items of choice and add them to cart.",
+        desc2: " The site is built with plainly html, css and javascript and very responsive.",
 
     },
     {
@@ -71,7 +81,9 @@ const Portfolio_data = [
         title: "Ecommerce Facial Website ",
         image: PIC,
         github: 'https://github.com/Mersy-Dev/Real-Estat',
-        demo:"https://e-commerce-facial.pages.dev/"
+        demo:"https://e-commerce-facial.pages.dev/",
+        desc: " A responsive eCommerce Facial Website with a dynamic page to allow users to search for a desired facial product.",
+        desc2: " The site is built with just frontend framework Reactjs and very responsive.",
 
     },
 ]
