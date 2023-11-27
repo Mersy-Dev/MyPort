@@ -1,7 +1,14 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/logo.png"
+import logo from "../pic/lg.png";
 import { FaTimes, FaBars } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
+
+
+
+
+
+
 const Header = () => {
     // fixed Header
     window.addEventListener("scroll", function () {
@@ -15,7 +22,7 @@ const Header = () => {
             <header className='header'>
                 <div className='container d_flex'>
                     <div className='logo'>
-                        <img src={logo} alt='' />
+                        <img src={logo} width={150} alt='' />
                     </div>
 
                     <div className='navlink'>
@@ -27,7 +34,7 @@ const Header = () => {
                             <li>
                                 <a href='#features'>features</a>
                             </li>
-                            <li> 
+                            <li>
                                 <a href='#portfolio'>portfolio</a>
                             </li>
                             <li>
@@ -36,19 +43,22 @@ const Header = () => {
                             <li>
                                 <a href='#clients'>clients</a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href='#blog'>blog</a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href='#contact'>contact</a>
                             </li>
-                            <li>
-                                <button className='home-btn'>BUY NOW</button>
-                            </li>
+                            <a href="https://wa.me/2348138862185" target="_blank">
+                                <button class='home-btn'>
+                                    <IoLogoWhatsapp className="i" />
+                                    Hello there
+                                </button>
+                            </a>
                         </ul>
 
                         <button className='toggle' onClick={() => setMobile(!Mobile)}>
-                            {Mobile ? <FaTimes className="close home-btn" /> : < FaBars className="open"/>}
+                            {Mobile ? <FaTimes className="close home-btn" /> : < FaBars className="open" />}
                         </button>
                     </div>
                 </div>

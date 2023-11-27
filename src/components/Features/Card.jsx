@@ -1,4 +1,6 @@
-import React from "react"
+import React from "react";
+import { FaArrowRight  } from "react-icons/fa";
+import "./features.css";
 
 const Card = (props) => {
   return (
@@ -8,7 +10,7 @@ const Card = (props) => {
         <h2>{props.title}</h2>
         <p>{props.desc}</p>
         <a href='/'>
-          <i className='fas fa-arrow-right'></i>
+          <FaArrowRight />
         </a>
       </div>
     </>

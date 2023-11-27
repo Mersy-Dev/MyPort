@@ -13,9 +13,9 @@ const Portfolio = () => {
             <h1>My Portfolio</h1>
           </div>
 
-          <div className='content grid'>
+          <div className='content grid carld'>
             {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
+              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} github={value.github} demo={value.demo} />
             })}
 
             {/*<div className='box btn_shadow '>

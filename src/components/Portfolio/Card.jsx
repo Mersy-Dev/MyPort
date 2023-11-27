@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaThumbsUp, FaChevronRight, FaTimes, FaArrowRight, FaHeart  } from "react-icons/fa";
+import {  FaGithub, FaChevronRight, FaTimes, FaArrowRight, FaHeart  } from "react-icons/fa";
 import "./portfolio.css";
 
 const Card = (props) => {
@@ -8,6 +8,8 @@ const Card = (props) => {
     const toggleModal = () => {
         setModal(!modal)
     }
+
+    
 
     if (modal) {
         document.body.classList.add("active-modal")
@@ -48,12 +50,17 @@ const Card = (props) => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate distinctio assumenda explicabo veniam temporibus eligendi.</p>
                             <p>Consectetur adipisicing elit. Cupiditate distinctio assumenda. dolorum alias suscipit rerum maiores aliquam earum odit, nihil culpa quas iusto hic minus!</p>
                             <div className='button f_flex mtop'>
-                                <button className='btn_shadow'>
-                                    LIKE THIS <FaThumbsUp className="mtb" />
-                                </button>
-                                <button className='btn_shadow'>
-                                    VIEW PROJECT <FaChevronRight />
-                                </button>
+                                <a href={props.github}>
+                                    <button className='btn_shadow'>
+                                        GITHUB < FaGithub className="mtb" />
+                                    </button>
+                                </a>
+                                
+                               <a href={props.demo}>
+                                    <button className='btn_shadow'>
+                                        VIEW PROJECT <FaChevronRight />
+                                    </button>
+                               </a>
                             </div>
                             <button className='close-modal btn_shadow' onClick={toggleModal}>
                                 <FaTimes className="bcm"/>

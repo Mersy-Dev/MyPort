@@ -1,5 +1,15 @@
 
-import PIC from "../pic/port.JPG"
+import PIC from "../pic/face.jpg";
+import PIC2 from "../pic/housing.jpg";
+import PIC3 from "../pic/icecream.jpg";
+import PIC4 from "../pic/school.jpg";
+import PIC5 from "../pic/dinner.jpg";
+import PIC6 from "../pic/cloth.jpg";
+
+
+
+
+
 
 
 const Portfolio_data = [
@@ -7,43 +17,62 @@ const Portfolio_data = [
         id: 1,
         category: "DEVELOPMENT",
         totalLike: "600",
-        title: "The services provide for design ",
-        image: PIC,
+        title: "A responsive Travel and Tourism Booking Website ",
+        image: PIC5,
+        github: 'https://github.com/Mersy-Dev/TourNTravels',
+        demo: "https://tours-trav.netlify.app/"
+
     },
     {
         id: 2,
         category: "APPLICATION",
         totalLike: "750",
-        title: "Mobile app landing design & maintain",
-        image: "./image/portfolio-02.jpg",
+        title: "A real estate website for housing and accomodation",
+        image: PIC2,
+        github: 'https://github.com/Mersy-Dev/Real-Estat',
+        demo: "https://housing-aj5.pages.dev/"
+
+
     },
     {
         id: 3,
-        category: "PHOTOSHOP",
+        category: "DEVELOPMENT",
         totalLike: "630",
-        title: "Logo design creativity & Application ",
-        image: "./image/portfolio-03.jpg",
+        title: "eCommerce Veges and Fruits Website",
+        image: PIC3,
+        github: 'https://github.com/Mersy-Dev/eCommerce/',
+        demo: "https://minions-resturant.netlify.app/"
+
     },
     {
         id: 4,
-        category: "FIGMA",
+        category: "WEB DESIGN",
         totalLike: "360",
-        title: "Mobile app landing design & Services",
-        image: "./image/portfolio-04.jpg",
+        title: "A PHP School Management system",
+        image: PIC4,
+        github: 'https://github.com/Mersy-Dev/school-system',
+        demo: ""
+
     },
     {
         id: 5,
         category: "WEB DESIGN",
         totalLike: "280",
-        title: "Design for tecnology & services",
-        image: "./image/portfolio-05.jpg",
+        title: "A responsive eCommerce Clothing Javascript Website",
+        image: PIC6,
+        github: 'https://github.com/Mersy-Dev/eCommerClothing',
+        demo: "https://clothing-ecomms.netlify.app/"
+
     },
     {
         id: 6,
         category: "WEB DESIGN",
         totalLike: "690",
-        title: "App for tecnology & services",
-        image: "./image/portfolio-06.jpg",
+        title: "Ecommerce Facial Website ",
+        image: PIC,
+        github: 'https://github.com/Mersy-Dev/Real-Estat',
+        demo:"https://e-commerce-facial.pages.dev/"
+
     },
 ]
 export default Portfolio_data
