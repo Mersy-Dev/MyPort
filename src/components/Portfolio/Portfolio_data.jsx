@@ -48,8 +48,8 @@ const Portfolio_data = [
         image: PIC,
         github: 'https://github.com/Mersy-Dev/eCommerPHP',
         demo:"https://ecomms-php.000webhostapp.com/",
-        desc: " A very interesting eCommerce electronic website with an admin pannel to update and delete products.",
-        desc2: " The site is built with PHP and other UI plugins.",
+        desc: " A very interesting eCommerce electronic website with an admin pannel to update and delete products. The site is built with PHP and other UI plugins.",
+        desc2: " Login details as  Username: harry@den.com Password: code0 . Site is still on Development.",
 
     },
     {
