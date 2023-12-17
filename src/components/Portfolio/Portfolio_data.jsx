@@ -21,9 +21,9 @@ const Portfolio_data = [
         title: "A PHP School Management system",
         image: PIC4,
         github: 'https://github.com/Mersy-Dev/school-system',
-        demo: "https://schmanagsystem.000webhostapp.com/login.php",
+        demo: "https://schmanagsystem.000webhostapp.com/index.php",
         desc: " A School Management System which help to manage the school activities such as student registration, student result, student attendance, teacher attendance, teacher registration, teacher result, and many more From the admin page.",
-        desc2: " The site is resonsive and built with PHP and uses mysql as its data storage base.Login details - The Username is mercy and password is 123.",
+        desc2: " The site is resonsive and built with PHP and uses mysql as its data storage base. Login details - The Username is mercy and password is 123.",
 
     },
     {
