@@ -1,5 +1,5 @@
 
-import PIC from "../pic/face.jpg";
+import PIC from "../pic/elect.jpg";
 import PIC2 from "../pic/housing.jpg";
 import PIC3 from "../pic/icecream.jpg";
 import PIC4 from "../pic/school.jpg";
@@ -39,8 +39,21 @@ const Portfolio_data = [
 
 
     },
-    {
+
+     {
         id: 3,
+        category: "WEB DESIGN",
+        totalLike: "990",
+        title: "Advanced PHP eCommerce Electronics Website",
+        image: PIC,
+        github: 'https://github.com/Mersy-Dev/eCommerPHP',
+        demo:"https://ecomms-php.000webhostapp.com/",
+        desc: " A very interesting eCommerce electronic website with an admin pannel to update and delete products.",
+        desc2: " The site is built with PHP and other UI plugins.",
+
+    },
+    {
+        id: 4,
         category: "DEVELOPMENT",
         totalLike: "630",
         title: "eCommerce Veges and Fruits Website",
@@ -52,7 +65,7 @@ const Portfolio_data = [
 
     },
     {
-        id: 4,
+        id: 5,
         category: "DEVELOPMENT",
         totalLike: "600",
         title: "A responsive Travel and Tourism Booking Website ",
@@ -64,7 +77,7 @@ const Portfolio_data = [
 
     },
     {
-        id: 5,
+        id: 6,
         category: "WEB DESIGN",
         totalLike: "280",
         title: "A responsive eCommerce Clothing Javascript Website",
@@ -75,17 +88,6 @@ const Portfolio_data = [
         desc2: " The site is built with plainly html, css and javascript and very responsive.",
 
     },
-    {
-        id: 6,
-        category: "WEB DESIGN",
-        totalLike: "690",
-        title: "Ecommerce Facial Website ",
-        image: PIC,
-        github: 'https://github.com/Mersy-Dev/Real-Estat',
-        demo:"https://e-commerce-facial.pages.dev/",
-        desc: " A responsive eCommerce Facial Website with a dynamic page to allow users to search for a desired facial product.",
-        desc2: " The site is built with just frontend framework Reactjs and very responsive.",
-
-    },
+   
 ]
 export default Portfolio_data

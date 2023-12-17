@@ -11,8 +11,8 @@ const ResumeApi = [
         id: 2,
         category: "education",
         year: "SQI, College of ICT (2021 - 2023) ",
-        title: "Certificate in Software Engineering",
-        desc: "Congratulations! I am a graduate from SQI College of ICT, holding a Diploma in Software Engineering. Passionate about technology and driven by a desire to create innovative solutions, I'm equipped with the skills and knowledge to excel in the dynamic field of software development.",
+        title: "Professional Certificate in Software Engineering",
+        desc: "Congratulations! I am a graduate from SQI College of ICT, holding a Professional Certificate in Software Engineering. Passionate about technology and driven by a desire to create innovative solutions, I'm equipped with the skills and knowledge to excel in the dynamic field of software development.",
         rate: "4.50/5",
     },
     {
