@@ -5,10 +5,6 @@ import { FaTimes, FaBars } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 
 
-
-
-
-
 const Header = () => {
     // fixed Header
     window.addEventListener("scroll", function () {

@@ -14,15 +14,16 @@ import PIC6 from "../pic/cloth.jpg";
 
 const Portfolio_data = [
     {
+
         id: 1,
-        category: "DEVELOPMENT",
-        totalLike: "600",
-        title: "A responsive Travel and Tourism Booking Website ",
-        image: PIC5,
-        github: 'https://github.com/Mersy-Dev/TourNTravels',
-        demo: "https://tours-trav.netlify.app/",
-        desc: " A responsive Travel and Tourism Booking Website with a dynamic booking site that allows users to book for a tour and search for a desired location.",
-        desc2: " The site is built with frontend framework Reactjs and backend framework Nodejs, using mongoDB as the database.",
+        category: "WEB DESIGN",
+        totalLike: "360",
+        title: "A PHP School Management system",
+        image: PIC4,
+        github: 'https://github.com/Mersy-Dev/school-system',
+        demo: "https://schmanagsystem.000webhostapp.com/login.php",
+        desc: " A School Management System which help to manage the school activities such as student registration, student result, student attendance, teacher attendance, teacher registration, teacher result, and many more From the admin page.",
+        desc2: " The site is resonsive and built with PHP and uses mysql as its data storage base.Login details - The Username is mercy and password is 123.",
 
     },
     {
@@ -52,14 +53,14 @@ const Portfolio_data = [
     },
     {
         id: 4,
-        category: "WEB DESIGN",
-        totalLike: "360",
-        title: "A PHP School Management system",
-        image: PIC4,
-        github: 'https://github.com/Mersy-Dev/school-system',
-        demo: "",
-        desc: " A School Management System which help to manage the school activities such as student registration, student result, student attendance, teacher attendance, teacher registration, teacher result, and many more.",
-        desc2: " The site is resonsive and built with PHP and uses mysql as its data storage base.",
+        category: "DEVELOPMENT",
+        totalLike: "600",
+        title: "A responsive Travel and Tourism Booking Website ",
+        image: PIC5,
+        github: 'https://github.com/Mersy-Dev/TourNTravels',
+        demo: "https://tours-trav.netlify.app/",
+        desc: " A responsive Travel and Tourism Booking Website with a dynamic booking site that allows users to book for a tour and search for a desired location.",
+        desc2: " The site is built with frontend framework Reactjs and backend framework Nodejs, using mongoDB as the database.",
 
     },
     {
