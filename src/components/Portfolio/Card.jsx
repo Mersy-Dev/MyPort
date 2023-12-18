@@ -50,13 +50,13 @@ const Card = (props) => {
                             <p>{props.desc}</p>
                             <p>{props.desc2}</p>
                             <div className='button f_flex mtop'>
-                                <a href={props.github}>
+                                <a href={props.github} target="_blank">
                                     <button className='btn_shadow'>
                                         GITHUB < FaGithub className="mtb" />
                                     </button>
                                 </a>
                                 
-                               <a href={props.demo}>
+                               <a href={props.demo} target="_blank">
                                     <button className='btn_shadow'>
                                         VIEW PROJECT <FaChevronRight />
                                     </button>

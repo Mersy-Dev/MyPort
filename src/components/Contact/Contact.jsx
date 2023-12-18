@@ -67,17 +67,17 @@ const Contact = () => {
                                     <p>Email: anuoluwafalaju@gmail.com</p> <br />
                                     <span>FIND WITH ME</span>
                                     <div className='button f_flex'>
-                                        <a href="https://www.linkedin.com/in/falaju-mercy-aa770b22b/">
+                                        <a href="https://www.linkedin.com/in/falaju-mercy-aa770b22b/" target="_blank">
                                             <button className='btn_shadow'>
                                                 <FaLinkedinIn className="i" />
                                             </button>
                                         </a>
-                                        <a href="https://github.com/Mersy-Dev/">
+                                        <a href="https://github.com/Mersy-Dev/" target="_blank">
                                             <button className='btn_shadow'>
                                                 <FaGithub className="i" />
                                             </button>
                                         </a>
-                                        <a href="mailto:anuoluwafalaju@gmail.com">
+                                        <a href="mailto:anuoluwafalaju@gmail.com" target="_blank">
                                             <button className='btn_shadow'>
                                                 <MdEmail className="i" />
                                             </button>
