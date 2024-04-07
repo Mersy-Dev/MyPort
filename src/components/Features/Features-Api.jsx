@@ -33,7 +33,7 @@ const data = [
       id: 6,
       image: "https://img.icons8.com/external-itim2101-lineal-itim2101/64/external-portfolio-search-itim2101-lineal-itim2101.png ",
       title: "Personal Portfolio April",
-      desc: " It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
+      desc: " My portfolio showcases my expertise in software development, honed through dedicated learning, hands-on projects, and continuous skill refinement.",
     },
   ]
   export default data

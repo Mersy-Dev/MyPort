@@ -1,54 +1,54 @@
-.Contact .left {
+.contact .left {
     width: 36%;
 }
 
-.Contact .right {
+.contact .right {
     width: 60%;
 }
 
-.Contact .box {
+.contact .box {
     padding: 30px;
 }
 
-.Contact .details h1 {
+.contact .details h1 {
     margin: 20px 0 20px 0;
     font-size: 35px;
 }
 
-.Contact .details p {
+.contact .details p {
     font-size: 17px;
 }
 
-.Contact .button {
+.contact .button {
     margin-top: 20px;
 }
 
-.Contact button {
+.contact button {
     margin-right: 20px;
 }
 
-.Contact .right {
+.contact .right {
     padding: 35px;
 }
 
-.Contact .input span {
+.contact .input span {
     font-size: 13px;
 }
 
-.Contact input {
+.contact input {
     margin-top: 10px;
 }
 
-.Contact .right button {
+.contact .right button {
     width: 100%;
     color: #ff014f;
 }
 
-.Contact .right button:hover {
+.contact .right button:hover {
     color: white;
 }
 
-.Contact .right button i {
+.contact .right button i {
     margin-left: 10px;
 }
 .cbig{
@@ -56,12 +56,12 @@
 }
 
 @media (max-width: 768px) {
-    .Contact .d_flex {
+    .contact .d_flex {
         flex-direction: column;
     }
 
-    .Contact .left,
-    .Contact .right {
+    .contact .left,
+    .contact .right {
         width: 100%;
         margin-top: 50px;
     }

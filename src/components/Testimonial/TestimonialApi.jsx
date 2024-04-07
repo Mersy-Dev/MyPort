@@ -12,7 +12,7 @@ const TestimonialApi = [
         offcer: "Junior Developer Department",
         post: "Web Development",
         date: "Junior Role Department - Feb 6, 2023 - Aug 30, 2023",
-        desc: "Working with Mercy on our website project has been nothing short of impressive. His dedication, quick learning of new concepts, and problem-solving abilities were invaluable. Mercy not only met but exceeded expectations, showcasing a solid grasp of fundamental concepts and an eagerness to contribute meaningfully. "
+        desc: "Working with Mercy on our website project has been nothing short of impressive. His dedication, quick learning of new concepts, and problem-solving abilities were invaluable. "
     },
     {
         id: 2,

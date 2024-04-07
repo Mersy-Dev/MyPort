@@ -161,5 +161,11 @@
     .left,
     .right {
       width: 100%;
+      padding: 20px 0;
     }
+
+  .content .box_shodow {
+    height: auto;
+    padding: 20px;
+  }
   }
